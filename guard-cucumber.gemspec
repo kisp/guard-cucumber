@@ -19,8 +19,8 @@ Gem::Specification.new do |s|
 
   s.add_dependency "cucumber", ">= 3.1"
   s.add_dependency "nenv", ">= 0.1"
+  s.add_dependency "guard-compat", ">= 1.0"
 
-  s.add_development_dependency "guard-compat", ">= 1.0"
   s.add_development_dependency "bundler", ">= 1.6"
 
   s.files = `git ls-files -z`.split("\x0").select do |f|
