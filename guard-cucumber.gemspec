@@ -17,7 +17,6 @@ Gem::Specification.new do |s|
 
   s.required_rubygems_version = ">= 1.3.6"
 
-  s.add_dependency "cucumber", ">= 3.1"
   s.add_dependency "nenv", ">= 0.1"
 
   s.add_development_dependency "guard-compat", ">= 1.0"
