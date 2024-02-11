@@ -11,7 +11,6 @@ if Object.const_defined?(:Guard)
   end
 end
 
-require "cucumber"
 require "guard/compat/plugin"
 
 require "cucumber/formatter/console"

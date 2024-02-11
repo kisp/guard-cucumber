@@ -1,4 +1,3 @@
-require "cucumber"
 require "guard/cucumber/version"
 require "guard/cucumber/runner"
 require "guard/cucumber/inspector"
